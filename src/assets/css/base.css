@@ -1,0 +1,199 @@
+/*fonts*/
+/*@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);*/
+/*@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);*/
+/*@import url(https://fonts.googleapis.com/earlyaccess/notosanssc.css);*/
+
+/*icon*/
+/*@import url(https://fonts.googleapis.com/icon?family=Material+Icons);*/
+
+
+@font-face{
+    font-family: 'HelveticaNeue-Bold';
+    src:url('../fonts/HelveticaNeueLTStd-Bd.woff') format('woff'),
+    url('../fonts/HelveticaNeueLTStd-Bd.ttf') format('truetype');
+    src:local(※), url('../fonts/HelveticaNeueLTStd-Bd.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'HelveticaNeue-Medium';
+    src:url('../fonts/HelveticaNeueLTStd-Md.woff') format('woff'),
+    url('../fonts/HelveticaNeueLTStd-Md.ttf') format('truetype');
+    src:local(※), url('../fonts/HelveticaNeueLTStd-Md.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'HelveticaNeue-Roman';
+    src:url('../fonts/HelveticaNeueLTStd-Roman.woff') format('woff'),
+    url('../fonts/HelveticaNeueLTStd-Roman.ttf') format('truetype');
+    src:local(※), url('../fonts/HelveticaNeueLTStd-Roman.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'HelveticaNeue-Light';
+    src:url('../fonts/HelveticaNeueLTStd-Lt.woff') format('woff'),
+    url('../fonts/HelveticaNeueLTStd-Lt.ttf') format('truetype');
+    src:local(※), url('../fonts/HelveticaNeueLTStd-Lt.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'HelveticaNeue-Thin';
+    src:url('../fonts/HelveticaNeueLTStd-Th.woff') format('woff'),
+    url('../fonts/HelveticaNeueLTStd-Th.ttf') format('truetype');
+    src:local(※), url('../fonts/HelveticaNeueLTStd-Th.woff') format('woff');
+    font-display: swap;
+}
+
+/*  한국어 */
+:lang(ko) {
+    /*fonts-family: 'Noto Sans KR', sans-serif;*/
+}
+/* 일본어 */
+:lang(ja) {
+    /*fonts-family: 'Noto Sans JP', sans-serif;*/
+}
+/* 중국어 (간체) */
+:lang(zh-Hans) {
+    /*fonts-family: 'Noto Sans SC', sans-serif;*/
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*fonts-size: 100%;*/
+    /*fonts: inherit;*/
+    vertical-align: baseline;
+    font-weight: normal;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body {
+    /*font-family: 'HelveticaNeue-Roman','애플 SD 산돌고딕 Neo','Apple SD Gothic Neo','Noto Sans KR','맑은고딕','Nanum Gothic',sans-serif;*/
+    background-color: #fff;
+    color: #000;
+}
+
+a, a:visited, a:link, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.blind {
+    position: absolute !important;
+    left: -9999px !important;
+    top: -9999px !important;
+    text-indent: -9999px !important;
+    font-size: 0 !important;
+    opacity: 0;
+    overflow: hidden !important;
+}
+
+ul, ol{
+    display: block;
+    list-style-type: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+
+button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    /* inherit fonts & color from ancestor */
+    color: inherit;
+    font: inherit;
+
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+
+    /* Corrects fonts smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner {
+     border: 0;
+     padding: 0;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+::selection {
+    background: rgba(0,145,109, 0.8); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: rgba(0,145,109, 0.8); /* Gecko Browsers */
+}
+
+.hide{
+    display: none !important;
+}
+
+.non-pointer {
+    pointer-events: none!important;
+}
+

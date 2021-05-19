@@ -1,0 +1,33 @@
+
+** locomotive scroll + scrollTrigger 같이 사용시 리사이즈 할떄 에러나서 수정
+
+node-module > locomotive-scroll > dist > locomotive-scroll.esm.js
+function getTranslate 수정
+
+var transform = style.transform || style.webkitTransform || style.mozTransform;
+    // -------------- add
+    if(!transform) {
+        translate.x = 0;
+        translate.y = 0;
+        return translate;
+    }
+    // ----------------
+var mat = transform.match(/^matrix3d\((.+)\)$/);
+
+
+** locomotive scroll - mouse 빨리 상단으로 움직일시 스크롤바 최상단 까지 가지 않는 버그 수
+
+node-module > locomotive-scroll > dist > locomotive-scroll.esm.js
+value: function moveScrollBar(e)  수정
+
+else if(y < 0){
+  _this5.instance.delta.y = 0;
+}
+
+
+** video id 수정
+src/components/product/productcomponents/comp-procuct-video
+data-videoId 수정
+
+** powder wash hidden
+검색 todo - hide-powder-wash

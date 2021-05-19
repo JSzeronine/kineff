@@ -1,0 +1,47 @@
+@import "_easing.scss";
+
+
+$font-family-sans-serif:      'HelveticaNeue-Roman','애플 SD 산돌고딕 Neo','Apple SD Gothic Neo','Noto Sans KR','맑은고딕','Nanum Gothic',sans-serif;
+$font-family-sans-serif_medium:      'HelveticaNeue-Medium','애플 SD 산돌고딕 Neo','Apple SD Gothic Neo','Noto Sans KR','맑은고딕','Nanum Gothic',sans-serif;
+$font-family-sans-serif_bold:      'HelveticaNeue-Bold','애플 SD 산돌고딕 Neo','Apple SD Gothic Neo','Noto Sans KR','맑은고딕','Nanum Gothic',sans-serif;
+$font-family-sans-serif_light:      'HelveticaNeue-Light','애플 SD 산돌고딕 Neo','Apple SD Gothic Neo','Noto Sans KR','맑은고딕','Nanum Gothic',sans-serif;
+$font-family-sans-serif_thin:      'HelveticaNeue-Thin','애플 SD 산돌고딕 Neo','Apple SD Gothic Neo','Noto Sans KR','맑은고딕','Nanum Gothic',sans-serif;
+$font-family-kr:              '애플 SD 산돌고딕 Neo','Apple SD Gothic Neo','Noto Sans KR','맑은고딕','Nanum Gothic',sans-serif;
+
+$font-size-base:              1rem !default;
+
+$font-size-xs:                ($font-size-base * .875);  //14px
+$font-size-s:                ($font-size-base * 0.9375);  //15px
+$font-size-me:                ($font-size-base * 1.125); //18px
+$font-size-lg:                ($font-size-base * 1.25);  //20px
+$font-size-xl:                ($font-size-base * 1.5); //24px
+$font-size-2xl:                ($font-size-base * 1.875); //30px
+$font-size-3xl:                ($font-size-base * 3.75); //60px
+
+$h1-font-size:                $font-size-base * 2.5 !default;  //40
+$h2-font-size:                $font-size-base * 2 !default; // 32
+$h3-font-size:                $font-size-base * 1.75 !default; // 28
+$h4-font-size:                $font-size-base * 1.5 !default; // 24
+$h5-font-size:                $font-size-base * 1.25 !default; //20
+$h6-font-size:                $font-size-base !default; // 16
+
+
+// mobile only size
+$font-size-m-s: ($font-size-base * .6875); //11px
+$font-size-m-me: ($font-size-base * 1.063); //17px
+$font-size-m-lg: ($font-size-base * 1.375); //22px
+$font-size-m-xl: ($font-size-base * 1.563); //25px
+$font-size-m-2xl: ($font-size-base * 2.125); //34px
+$font-size-m-3xl: ($font-size-base * 2.25); //36px
+
+
+
+$line-height-base:            1.5 !default;
+
+$color-set-green:            #00916D;
+$color-set-gray:             #fafafa; //#EEF3F4;
+
+$stage-min-width : 1280px;
+$stage-min-height : 600px;
+$stage-contents-width : 1200px;
+
